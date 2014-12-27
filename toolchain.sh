@@ -387,7 +387,7 @@ function installPremake {
 }
 
 function downloadPatches {
-  svnGet psp "svn://svn.ps2dev.org/psp/trunk/psptoolchain" "patches"
+  svnGet psp "https://github.com/badboy/ps2dev-psptoolchain" "patches"
   gitClone psp "https://github.com/pspdev/psptoolchain.git" "psptoolchain"
 }
 
